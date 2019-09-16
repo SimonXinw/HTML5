@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eln">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // // 冒泡函数
+        // var arr =[9,7,6,5,4,3,2,1];
+        // function paixu(arr){
+        //     for (var j = 1; j < arr.length; j++){
+        //         for(var i = 0 ; i<arr.length -j; i++){
+        //         if (arr[i]>arr[i+1]){
+        //             var kong = arr[i];
+        //             arr[i] = arr[i+1];
+        //             arr[i+1] = kong;
+        //         }
+        //         }
+        //     }
+            
+        //     return arr;
+        // }
+
+        // console.log(paixu(arr));
+        
+        // var arr = [1,2,3,4,5,6,7,8];
+        // // var res = arr.indexOf(2,1);
+        // var res = arr.includes(3,2);
+        // console.log(res);
+        
+
+        // sort方法、
+        // var arr = [8,72,53,34,5,6,7,1];
+        // // var res = arr.sort(); Ascii 排序
+        // var res = arr.sort(
+        //     function(a,b){
+        //         return b - a ;
+        //     }
+        // )
+        // console.log(res);
+        // console.log(arr);
+
+        // forEach 数组遍历方法
+        // var arr = [8,72,53,34,5,6,7,1];
+        //     arr.forEach(function(currentValue,currentIndex,arr) {
+                
+        //     })
+        //  遍历原理
+        // function forEach(arr,fn) {
+        //     for(var i = 0; i<arr.length; i++){
+        //         fn(arr[i],i)
+        //     }
+            
+        // }
+        // var sum = 0;
+        // forEach(arr,function(currentValue,currentIndex){
+        //     sum += currentValue;
+        // })
+        // console.log(sum);
+
+        // map 处理数组并返回一个新数组
+        var arr = [1,2,3,4,5];
+        // var res = arr.map(function (currentValue,currentIndex,arr){
+        //     return currentValue * 10;
+        // })
+        // console.log(res);
+
+        function map(arr,fn){
+            var list = []
+            fn()
+        }
+
+        map(arr,function(currentValue,currentIndex){
+            return currentValue * 10;
+        })
+    </script>
+</body>
+</html>
